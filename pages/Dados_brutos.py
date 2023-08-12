@@ -80,9 +80,9 @@ st.markdown(f'A tabela possui :blue[{dados_filtrados.shape[0]}] linhas e :blue[{
 
 def preparando():
     msg = st.toast('Preparando...')
-    time.sleep(1)
+    time.sleep(6)
     msg.toast('Organizando tabela...')
-    time.sleep(1)
+    time.sleep(6)
     msg.toast('Pronto!', icon = "🤖")
 
 
