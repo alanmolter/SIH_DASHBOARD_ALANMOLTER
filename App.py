@@ -20,6 +20,8 @@ def formata_numero(valor, prefixo = ''):
     return f'{prefixo} {valor:.2f} milhoes'
 
 
+contador = 0
+
 with st.container():
     #H1
     st.divider()
@@ -428,7 +430,11 @@ st.divider()
 st.markdown('Desenvolvido por **ALAN MOLTER** :technologist:')
 st.divider()
 
-        
+contador = 1
+
+
+if contador == 1:
+        st.stop()
         
         
 
