@@ -22,7 +22,7 @@ def formata_numero(valor, prefixo = ''):
 
 
 with st.container():
-    #
+    
     st.divider()
     st.title(':desktop_computer: MACHINE LEARNING (SIH) HEMORRAGIA DIGESTIVA :skull::drop_of_blood:') 
     st.divider()
@@ -80,9 +80,8 @@ with col1:
         st.pyplot(fig8,use_container_width=True)
         
         
-with st.spinner('Wait for it...'):       
-    time.sleep(5)
-    with col2:
+
+with col2:
         #st.altair_chart(fig6, theme="streamlit", use_container_width=True)
         st.altair_chart(fig7, theme="streamlit", use_container_width=True)
         st.divider()
