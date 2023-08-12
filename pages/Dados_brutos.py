@@ -9,6 +9,7 @@ import missingno as msno
 import altair as alt
 import time
 
+contador = 0
 
 @st.cache_data
 def converte_csv(df):
@@ -98,4 +99,5 @@ with coluna2:
         preparando()
     
 
-   
+if contador == 1:
+        st.stop()

@@ -9,6 +9,7 @@ import missingno as msno
 import altair as alt
 import time
 
+contador = 0
 
 #config da pagina
 st.set_page_config(layout= 'wide',page_icon=':computer:')
@@ -100,3 +101,7 @@ col3.metric("**Óbitos 2021**", "1.881", "-1.253")
 st.divider()
 st.markdown('Desenvolvido por **ALAN MOLTER** :technologist:')
 st.divider()
+
+
+if contador == 1:
+        st.stop()

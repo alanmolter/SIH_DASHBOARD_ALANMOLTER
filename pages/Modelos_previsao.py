@@ -19,6 +19,7 @@ def formata_numero(valor, prefixo = ''):
         valor /= 1000
     return f'{prefixo} {valor:.2f} milhoes'
 
+contador = 0
 
 with st.container():
     #H1
@@ -73,3 +74,7 @@ st.dataframe(dadosMachine, hide_index=True)
 st.divider()
 st.markdown('Desenvolvido por **ALAN MOLTER** :technologist:')
 st.divider()
+
+
+if contador == 1:
+        st.stop()
