@@ -75,6 +75,7 @@ st.divider()
 st.markdown('Desenvolvido por **ALAN MOLTER** :technologist:')
 st.divider()
 
+contador = 1
 
 if contador == 1:
         st.stop()

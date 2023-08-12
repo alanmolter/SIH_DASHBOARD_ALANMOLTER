@@ -99,5 +99,7 @@ with coluna2:
         preparando()
     
 
+contador = 1   
+
 if contador == 1:
         st.stop()

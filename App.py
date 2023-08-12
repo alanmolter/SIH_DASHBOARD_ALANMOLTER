@@ -9,6 +9,8 @@ import missingno as msno
 import altair as alt
 import time
 
+contador = 0
+
 #config da pagina
 st.set_page_config(layout= 'wide',page_icon=':computer:')
 
@@ -20,7 +22,6 @@ def formata_numero(valor, prefixo = ''):
     return f'{prefixo} {valor:.2f} milhoes'
 
 
-contador = 0
 
 with st.container():
     #H1
